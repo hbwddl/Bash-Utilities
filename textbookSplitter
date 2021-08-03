@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# This script splits a large pdf at the junctures that you give to it
+# I use it to split large textbooks into individual chapters
+# You call the script like so: ./textbookSplitter ~/path/to/Bigpdf.pdf 1 10 20 40 100 300
+# This would split Bigpdf.pdf into 5 pdfs: one with page 1-10
+# One with page 10-20
+# one with page 20-40
+# one with page 40-100
+# one with page 100-300
+
 j=$2
 for i in "${@:3}"; do
     echo $j
