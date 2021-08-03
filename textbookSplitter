@@ -1,0 +1,11 @@
+#!/bin/bash
+
+j=$2
+for i in "${@:3}"; do
+    echo $j
+    echo $i
+
+    pdftk $1 cat $j-$i output $1_$j-$i.pdf
+
+    j=$i
+done
