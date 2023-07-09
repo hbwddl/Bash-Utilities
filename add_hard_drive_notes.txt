@@ -1,0 +1,20 @@
+cd /dev/
+look for device (sd_)
+
+mkdir /media/mount_point
+
+sudo chmod ugo+wx /mount_point/
+
+At end of /etc/fstab:
+/dev/sdb1  /media/hdd  ext4  defaults  0  0
+
+sudo mount -a
+
+To unmount:
+umount /mount_point/
+
+If unmount hangs:
+sudo lsof/mount_point/
+
+To find which sd location:
+sudo lshw -class disk
