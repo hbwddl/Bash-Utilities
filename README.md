@@ -1,5 +1,5 @@
 # Bash-Utilities
-These are some useful bash scripts I have written to do various repetitive tasks.
+These are some useful bash scripts I have written to do various repetitive tasks, or notes I've taken on repetitive bash tasks I've had to look up a lot.
 
 They are fairly simple, and necessary documentation is put in as a comment in the script.
 
