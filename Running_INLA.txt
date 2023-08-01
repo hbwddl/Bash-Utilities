@@ -2,6 +2,7 @@ Inla error: never gets good initial values
 
 Must install inla from inla repository
 
+Force R to update:
 sudo apt update -qq
 # install two helper packages we need
 sudo apt install --no-install-recommends software-properties-common dirmngr
@@ -12,3 +13,7 @@ wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sud
 # add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed
 sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
 sudo apt install --no-install-recommends r-base
+
+On cluster:
+inla.binary.install()
+Choose centOS linux
