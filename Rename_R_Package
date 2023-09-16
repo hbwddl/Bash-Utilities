@@ -8,7 +8,7 @@ Delete
   ./NAMESPACE
 
 Grep in bash, in ./R folder
-  grep -r "PKG"
+  grep -r "PKG" .
 
 Run:
   Rcpp::compileAttributes()
