@@ -3,7 +3,17 @@ Change:
   ./DESCRIPTION
   ./man/PKG
   ./README.md
-  
+
+Delete
+  ./NAMESPACE
+
+Grep in bash, in ./R folder
+  grep -r "PKG"
 
 Run:
   Rcpp::compileAttributes()
+
+Run:
+  devtools::document()
+
+Install!
