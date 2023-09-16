@@ -1,0 +1,9 @@
+Renaming an R Package:
+Change:
+  ./DESCRIPTION
+  ./man/PKG
+  ./README.md
+  
+
+Run:
+  Rcpp::compileAttributes()
