@@ -1,0 +1,20 @@
+Passwordless login:
+On YOUR OWN, EMORY local machine:
+ssh-keygen
+ssh-copy-id username@cluster.address
+
+Hit <Enter> twice for passwordless login
+Or enter passphrase for RSA key
+
+Aliases:
+https://github.com/hbwddl/Bash-Utilities/blob/main/Command%20Line%20Aliases
+  Useful aliases to bind:
+    Logging in to cluster
+    Opening interactive terminal in cluster
+    Loading module in cluster
+    Changing directory to one that you use a lot (or your advisor's /project/ directory)
+    Anything you could imagine....
+
+Sbatch options
+https://slurm.schedmd.com/sbatch.html
+                                                     
