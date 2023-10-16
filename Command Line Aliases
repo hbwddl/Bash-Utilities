@@ -1,0 +1,36 @@
+Create an Alias for bash/zsh
+An Alias binds a line of command line code to a shortcut you define
+
+To define an alias, use the command
+
+alias shortcut="command"
+
+For example, to bind the command "ssh hbwadde@clogin01.sph.emory.edu" (which I use to log in to the cluster) to the shortcut lclust, enter
+
+alias lclust="ssh hbwadde@clogin01.sph.emory.edu"
+
+into your terminal program
+
+However, this will need to be re-run every time you boot the terminal. To get around this, store your aliases in the ~/.bashrc file (OR, on a Mac terminal, the ~/.zshrc file. Look at the name of your command line program to see if it's bash or zsh) *
+
+The ~/.bashrc file is run every time you open the terminal. Thus, this will define the aliases whenever you open the terminal.
+
+To edit the ~/.bashrc file,
+
+nano ~/.bashrc
+
+Then put the alias
+
+alias lclust="ssh hbwadde@clogin01.sph.emory.edu"
+
+at the end of the file. **
+
+TA DA!
+
+Warnings:
+1. Before defining the shortcut, type the shortcut into your terminal program to make sure you get the "command not found" error! Don't re-define any existing terminal commands!!!
+2. Don't put spaces by the equal sign in the alias command
+3. If you are on a Mac using the zsh terminal program, replace any ~/.bashrc with ~/.zshrc
+
+* The meaning of the ~/.bashrc name components: ~/ points to the default home directory. The . at the beginning of the .bashrc file name indicates it's a hidden file
+** You may have to sudo nano ~/.bashrc to edit the file
