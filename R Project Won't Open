@@ -1,0 +1,5 @@
+Terminal
+Go to project working directory
+ls -lha
+rm .Rhistory
+rm -rf .Rproj.user
