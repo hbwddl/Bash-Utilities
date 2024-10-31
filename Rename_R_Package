@@ -1,4 +1,7 @@
 Renaming an R Package:
+Rename:
+PACKAGENAME.Rproj
+
 Change:
   ./DESCRIPTION
   ./man/PKG
