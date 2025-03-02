@@ -3,6 +3,7 @@ Rename:
 PACKAGENAME.Rproj
 
 Change:
+  ./NAMESPACE
   ./DESCRIPTION
   ./man/PKG
   ./README.md
