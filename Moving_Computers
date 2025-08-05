@@ -6,15 +6,22 @@ Mac -> Mac
     - Bitwarden extension
   - R
   - RStudio
+    - Xcode
+    - Rcpp
+    - BH
   - Github desktop
   - Filezilla
   - Keyboard Maestro
   - Moom
   - Zoom
-  - Xcode
   - Mac developer tools
   - Homebrew
 
 Login:
   - Gmail
-  -
+  - email
+
+File Structure:
+  - Documents
+    - Research
+      - Within_Host_Viral_Load_RJMCMC
