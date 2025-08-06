@@ -11,11 +11,36 @@ Mac -> Mac
     - BH
   - Github desktop
   - Filezilla
-  - Keyboard Maestro
-  - Moom
   - Zoom
   - Mac developer tools
   - Homebrew
+  - Karabiner-elements
+    JSON for R arrow: 
+      {
+    "description": "R arrow shortcut (change cmd+semicolon to make an arrow)",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": {
+                    "mandatory": ["left_command"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "comma",
+                    "modifiers": ["left_shift"]
+                },
+                {
+                    "key_code": "hyphen",
+                    "modifiers": []
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
 
 Login:
   - Gmail
