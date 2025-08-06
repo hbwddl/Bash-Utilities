@@ -9,6 +9,8 @@ Mac -> Mac
     - Xcode
     - Rcpp
     - BH
+    - Rstudio shortcut:
+      "find and add next" -> cmd+d
   - Github desktop
   - Filezilla
   - Zoom
